@@ -6,6 +6,6 @@ Esta es una plantilla de ejemplo para usar en APIs personales o de ámbito empres
 • Laravel 10.0+
 • Composer
 
-##Librerías usadas
+## Librerías usadas
 
 • lomkit/laravel-rest-api v2.8
