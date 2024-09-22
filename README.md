@@ -1,11 +1,20 @@
-Esta es una plantilla de ejemplo para usar en APIs personales o de ·mbito empresarial, hecho completamente en Laravel y usando la librerÌa Laravel Rest API de Lomkit
+Esta es una plantilla de ejemplo para usar en APIs personales o de √°mbito empresarial, hecho completamente en Laravel y usando la librer√≠a Laravel Rest API de Lomkit
 
-## Prerrequisitos de instalaciÛn
+## Prerrequisitos de instalaci√≥n
 
-ï PHP 8.1+
-ï Laravel 10.0+
-ï Composer
+‚Ä¢ PHP 8.1+
+‚Ä¢ Laravel 10.0+
+‚Ä¢ Composer
 
-## LibrerÌas usadas
+## Librer√≠as usadas
 
-ï lomkit/laravel-rest-api v2.8
+‚Ä¢ lomkit/laravel-rest-api v2.8
+
+## Pasos a seguir
+
+1. Instalar dependencias con `composer install`
+2. Sacar una copia de `.env.example` y renombrarlo como `.env` y editar la conexi√≥n de base de datos.
+3. Generar clave de encriptaci√≥n `php artisan key:generate`
+4. Correr las migraciones generadas por defecto (se pueden modificar a conveniencia) `php artisan migrate`
+5. Cambiar en el archivo `.env` la configuraci√≥n de la variable `SESSION_DRIVER` a `file`.
+6. Levantar el servidor de artisan con `php artisan serve`
